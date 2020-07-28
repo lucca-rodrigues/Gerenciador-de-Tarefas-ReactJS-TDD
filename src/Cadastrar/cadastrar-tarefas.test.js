@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom'
 import CadastrarTarefas from './cadastrar-tarefas';
 import { render, fireEvent} from '@testing-library/react'
 import '@testing-library/jest-dom/extend-expect';
-import apiMock from 'axios';
 
 
 describe('Teste do componente de listagem de tarefas', () => {
